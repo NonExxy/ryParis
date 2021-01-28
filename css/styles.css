@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#header{
+    display: flex;
+    background-color: #f1a536;
+    color: black;
+    justify-content: space-between;
+    width: calc(100%-40px);
+    padding: 0 1em;
+}
+.logo{
+    cursor: pointer;
+    height: 10vh;
+}
+#navArea{
+    display: flex;
+    width: 45vw;
+    justify-content: space-around;
+    align-items: center;
+}
+[id$="Nav"]{
+    cursor: pointer;
+}
+[id$="Banner"]{
+    display: flex;
+    height: 50vh;
+    width: auto;
+    justify-content: center;
+    align-items: flex-end;
+}
+#homeBanner{
+    background-image: url("images/hero-image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#botwBanner{
+    background-image: url("images/bengal-burger.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText{
+    background-color: white;
+}
