@@ -30,20 +30,20 @@ a{
 }
 [id$="Banner"]{
     display: flex;
-    height: 50vh;
+    height: 75vh;
     width: auto;
     justify-content: center;
     align-items: flex-end;
 }
 #homeBanner{
     background-image: url("images/hero-image.jpg");
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #botwBanner{
     background-image: url("images/bengal-burger.jpg");
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
