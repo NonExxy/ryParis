@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 }
+body{
+    font-family: 'Heebo', sans-serif;
+}
 a{
     color: black;
     text-decoration: none;
@@ -49,4 +52,29 @@ a{
 }
 .bannerText{
     background-color: white;
+    margin-bottom: 2em;
+    font-size:2.5em;
+    padding: .5em;
+    font-weight: 800;
+}
+#recipeTime{
+    background-color: #dadfea;
+    padding-left: 4em;
+}
+#recipeTime h2{
+    padding-top: .5em;
+    font-size: 3em;
+}
+[id$="Sec"]{
+    display: flex;
+    font-size: 1.3em;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+[id$="Sec"] p, [id$="Sec"] h3{
+    padding: .5em;
+}
+#secSec{
+    width: 50vw;
+    justify-content: flex-start;
 }
