@@ -17,10 +17,11 @@ a{
     justify-content: space-between;
     width: calc(100%-40px);
     padding: 0 1em;
+    height: 6em;
 }
 .logo{
     cursor: pointer;
-    height: 10vh;
+    height: 6em;
 }
 #navArea{
     display: flex;
@@ -30,10 +31,11 @@ a{
 }
 [id$="Nav"]{
     cursor: pointer;
+    font-size: 1.5em;
 }
 [id$="Banner"]{
     display: flex;
-    height: 75vh;
+    height: 70vh;
     width: auto;
     justify-content: center;
     align-items: flex-end;
@@ -53,7 +55,7 @@ a{
 .bannerText{
     background-color: white;
     margin-bottom: 2em;
-    font-size:2.5em;
+    font-size:3em;
     padding: .5em;
     font-weight: 800;
 }
@@ -63,18 +65,195 @@ a{
 }
 #recipeTime h2{
     padding-top: .5em;
-    font-size: 3em;
+    font-size: 2.5em;
+    margin-left: 1em;
 }
 [id$="Sec"]{
     display: flex;
     font-size: 1.3em;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: .25em 1em;
+    align-items: baseline;
 }
-[id$="Sec"] p, [id$="Sec"] h3{
-    padding: .5em;
+[id$="Sec"] p{
+    padding-left: .25em;
+    padding-right: .5em;
+}
+[id$="Sec"] h3{
+    padding-bottom: .5em;
 }
 #secSec{
     width: 50vw;
     justify-content: flex-start;
+}
+.content{
+    width: 80vw;
+    margin-left: 10vw;
+    padding: 8vh 0;
+    height: calc(100% - 8em);
+    align-content: space-around;
+}
+.start{
+    font-size: 2.8em;
+}
+.textHere{
+    font-size: 2em;
+    margin: .8em 0 2em 0;
+}
+[id$="Pics"]{
+    display: flex;
+    justify-content: space-between;
+}
+[id$="Box"]{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+[id$="Box"] img{
+    cursor: pointer;
+    height: 16em;
+    width: 22em;
+    background-color: #dadfea;
+}
+[id$="Block"]{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+[id$="Block"] img{
+    cursor: pointer;
+    height: 14em;
+    width: 19em;
+}
+#midBack{
+    background-color: #dadfea;
+}
+#footer{
+    background-color: #f1a536;
+    height: 10em;
+    display: flex;
+    align-items: center;
+}
+#last{
+    display: flex;
+    justify-content: space-between;
+}
+#footRoute{
+    display: flex;
+    justify-content: space-between;
+    width: 32em;
+}
+#cWrite{
+    width: 15em;
+}
+[id$="Foot"]{
+    cursor: pointer;
+    font-size: 1.4em;
+    margin-bottom: 0;
+}
+[id$="Line"]{
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#cityBox img{
+    padding: .5em;
+    height: 19em;
+    width: 26em;
+}
+#piBox img{
+    padding: .5em;
+    height: 19em;
+    width: 26em;
+}
+#sandBox img{
+    padding: .5em;
+    height: 19em;
+    width: 26em;
+}
+#topProc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#proc{
+    font-size: 4em;
+    font-weight: 800;
+}
+#reviews{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20em;
+    justify-content: space-around;
+}
+#stars{
+    height: 1.8em;
+}
+#revNum{
+    font-size: 1.3em;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    width: 18em;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+#save{
+    cursor: pointer;
+    display: flex;
+    background-color: #a53526;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    color: white;
+    height: 2.8em;
+    width: 10em;
+    font-size: 1.3em;
+}
+#print{
+    display: inline;
+    cursor: pointer;
+    height: 3.5em;
+}
+
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ececf4;
+    color: #555454;
+    padding: 1em 5em;
+    font-size: 2.3em;
+    font-weight: 650;
+    margin-top: 2em;
+}
+#recipe{
+    display: flex;
+    justify-content: space-between;
+}
+#recipe h1{
+    margin-top: 1.3em;
+    margin-bottom: .5em;
+    font-size: 2.5em;
+}
+#directions{
+ width: 40em;
+}
+li{
+    font-size: 1.3em;
+    margin-left: 1.2em;
+}
+ol li{
+    padding-bottom: 1em;
+}
+ul h3{
+    padding-top: 1em;
+    margin-left: 1.2em;
 }
