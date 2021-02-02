@@ -257,3 +257,12 @@ ul h3{
     padding-top: 1em;
     margin-left: 1.2em;
 }
+#vid{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 30em;
+    margin-bottom: 4em;
+}
